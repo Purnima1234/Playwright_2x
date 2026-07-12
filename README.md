@@ -66,6 +66,25 @@ npx playwright test --reporter=html
 npx playwright show-report
 ```
 
+## Test Coverage
+
+### 01_Basics
+| File | Description |
+|------|-------------|
+| 229_Basic_test.spec.ts | Basic Playwright test structure |
+| 230_TestAnnotations.spec.ts | Test annotations (skip, only, fixme, slow) |
+
+### 02_first_tests — Browser Context & Pages (BCP)
+| File | Description |
+|------|-------------|
+| 231_firstTc_Verify.spec.ts | First test case: title and element verification |
+| 232_bcp.spec.ts | Browser Context & Page basics |
+| 233_BCP_multiple_contexts.spec.ts | Multiple browser contexts |
+| 234_BCP_Multiple_Pages.spec.ts | Multiple pages within a context |
+| 235_test_interface_BCP.spec.ts | Test interface with BCP |
+| 236_BCP_Inject.spec.ts | Cookie/storage injection via BCP |
+| 237_BCP_with_Options.spec.ts | BCP with context options (viewport, locale) |
+
 ## Tech Stack
 
 - [Playwright](https://playwright.dev/)

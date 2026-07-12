@@ -1,0 +1,6 @@
+{
+  "code-runner.executorMapByGlob": {
+    "*.spec.ts": "npx playwright test $fileName"
+  },
+  "code-runner.fileDirectoryAsCwd": false
+}
