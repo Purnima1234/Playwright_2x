@@ -85,6 +85,19 @@ npx playwright show-report
 | 236_BCP_Inject.spec.ts | Cookie/storage injection via BCP |
 | 237_BCP_with_Options.spec.ts | BCP with context options (viewport, locale) |
 
+### 03_Locators_Commands — Locator Strategies & Commands
+| File | Description |
+|------|-------------|
+| 238_locatorStrategy.spec.ts | Locator strategy overview |
+| 239-VWO_login.spec.ts | VWO login using various locators |
+| 240_xpath.spec.ts | XPath locator strategies |
+| 241_errorValidation.spec.ts | Error message validation using locators |
+| 242_usingPlaywright_Locator.spec.ts | Using Playwright built-in locators |
+| 243_playwrightCommands.spec.ts | Playwright commands reference |
+| 244_refere.spec.ts | Locator reference examples |
+| 245_getByrole.spec.ts | getByRole locator strategy |
+| 246_press_sequential.spec.ts | Sequential key press actions |
+
 ## Tech Stack
 
 - [Playwright](https://playwright.dev/)
