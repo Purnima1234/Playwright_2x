@@ -1,14 +1,20 @@
 import {test, expect} from '@playwright/test';
-import { verify } from 'crypto';
 
 test("verify title", async ({browser}) => {
-    //here injecting browser from playwright test runner, we can create context and page from it.
-    const context= await browser.newContext();
-    const page= await context.newPage();
-    await page.goto("https://app.vwo.com");
-    await expect(page).toHaveTitle("Login-VWO");
-    const logo= page.locator('#vow-login-logo');
-    await expect(logo).toBeVisible();
+    const context = await browser.newContext();
+    const page = await context.newPage();
 
+    await test.step('Navigate to VWO app', async () => {
+        await page.goto("https://app.vwo.com");
+    });
 
-    })
+    await test.step('Verify page title', async () => {
+        await expect(page).toHaveTitle("Login-VWO");
+    });
+
+    await test.step('Verify logo is visible', async () => {
+        const logo = page.locator('#vow-login-logo');
+        await expect(logo).toBeVisible();
+    });
+
+})

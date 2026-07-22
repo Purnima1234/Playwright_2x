@@ -1,0 +1,15 @@
+[
+  'Login\n' +
+    'Register\n' +
+    'Forgotten Password\n' +
+    'My Account\n' +
+    'Address Book\n' +
+    'Wish List\n' +
+    'Order History\n' +
+    'Downloads\n' +
+    'Recurring Payments\n' +
+    'Reward Points\n' +
+    'Returns\n' +
+    'Transactions\n' +
+    'Newsletter'
+]

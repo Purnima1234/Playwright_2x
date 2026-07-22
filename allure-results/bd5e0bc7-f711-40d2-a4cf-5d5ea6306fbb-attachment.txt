@@ -1,0 +1,25 @@
+CompanyContactCountry
+GoogleMaria AndersGermany
+Google
+Maria Anders
+Germany
+MetaFrancisco ChangMexico
+Meta
+Francisco Chang
+Mexico
+MicrosoftRoland MendelAustria
+Microsoft
+Roland Mendel
+Austria
+Island TradingHelen BennettUK
+Island Trading
+Helen Bennett
+UK
+AdobeYoshi TannamuriCanada
+Adobe
+Yoshi Tannamuri
+Canada
+AmazonGiovanni RovelliItaly
+Amazon
+Giovanni Rovelli
+Italy

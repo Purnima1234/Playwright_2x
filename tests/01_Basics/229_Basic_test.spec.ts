@@ -1,8 +1,11 @@
 import { test, expect } from '@playwright/test';
 
 test('Verify the title of the', async ({page}) => {
-    await page.goto('https://www.vwo.com/');
-    await expect(page).toHaveTitle("Login-VWO");
+    await test.step('Navigate to VWO website', async () => {
+        await page.goto('https://www.vwo.com/');
+    });
 
-    //page = fixture (injected by playwright) which is used to navigate to the page and perform actions on the page
+    await test.step('Verify page title', async () => {
+        await expect(page).toHaveTitle("Login-VWO");
+    });
 });
