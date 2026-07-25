@@ -128,7 +128,20 @@ npx playwright show-report
 |------|-------------|
 | 259_select_dropown.spec.ts | Native `<select>` dropdown interaction |
 | 260_CustomDropdown.spec.ts | Custom (non-native) dropdown interaction |
-| 261_AdvanceSelect.spec.ts | Advanced select patterns |
+| 261_AdvanceSelect.Pro.spec.ts | Advanced custom select (rs-single, rs-creatable, rs-async) |
+| 261_Handle_DynamicOptions_Spicejet.spec.ts | Dynamic autocomplete options (SpiceJet origin field) |
+| 262_Iframe.spec.ts | Iframe handling using `FrameLocator`; `selectOption` on native selects inside frames |
+
+### 10_Keyboard_Hover_Drag_Drop — Keyboard, Hover, Drag & Drop
+| File | Description |
+|------|-------------|
+| 265_Keyboard_Handle.spec.ts | `keyboard.press` — pressing keys and taking screenshots |
+| 266_Hover.spec.ts | `hover()` to reveal hidden nav menu items (SpiceJet Add-ons) |
+| learning.md | Reference guide: keyboard keys, mouse up/down/move, drag & drop, hover |
+
+## Config Notes
+
+- `playwright.config.ts` — `headless: false` set so all tests run in headed mode by default
 
 ## Tech Stack
 
