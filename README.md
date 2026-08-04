@@ -139,6 +139,38 @@ npx playwright show-report
 | 266_Hover.spec.ts | `hover()` to reveal hidden nav menu items (SpiceJet Add-ons) |
 | learning.md | Reference guide: keyboard keys, mouse up/down/move, drag & drop, hover |
 
+### 11_JS_Alerts — JavaScript Alerts & Dialogs
+| File | Description |
+|------|-------------|
+| 270_JS_Alert.spec.ts | Handling JS alerts, confirms, and prompts using `page.on('dialog')` |
+
+### 12_Handle_SVG — SVG & Advanced DOM
+| File | Description |
+|------|-------------|
+| 271_svg.spec.ts | Interacting with SVG elements |
+| 271_Task_FlipkartList.spec.ts | Flipkart list task using SVG/DOM traversal |
+| 272_svg.spec.ts | Extended SVG interaction patterns |
+| 274_shadow_DOM.spec.ts | Accessing elements inside Shadow DOM |
+
+### 13_Shadow_DOM — Shadow DOM
+(placeholder — no spec files yet)
+
+### 14_FileUpload — File Upload
+| File | Description |
+|------|-------------|
+| 275_FileUpload.spec.ts | Single file upload using `setInputFiles` |
+| 276_upload_Multiplefiles.spec.ts | Multiple file upload using `setInputFiles` |
+
+### 15_File_Download — File Download
+| File | Description |
+|------|-------------|
+| 277_Filedownload.spec.ts | File download handling using Playwright download events |
+
+### 16_Scroll_toElement — Scroll Interactions
+| File | Description |
+|------|-------------|
+| 278_scrollToView.spec.ts | `scrollIntoViewIfNeeded`, `window.scrollBy`, `window.scrollTo`, `expect.poll` for lazy-loaded lists |
+
 ## Config Notes
 
 - `playwright.config.ts` — `headless: false` set so all tests run in headed mode by default
