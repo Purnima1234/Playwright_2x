@@ -27,6 +27,7 @@ test('Validate no duplicate values in Language dropdown', async ({page}) => {
     // Collect all option texts
     const options = await page.getByRole("option").allTextContents();
     const trimmed = options.map(o => o.trim());
+   console.log(options)
 
     console.log('Dropdown options:', trimmed);
 

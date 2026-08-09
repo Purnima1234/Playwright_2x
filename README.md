@@ -123,7 +123,7 @@ npx playwright show-report
 | 257_webtable_xpath.spec.ts | Web table XPath with filtering |
 | 258_webtable_Xpath_pagination.spec.ts | Web table XPath with pagination handling |
 
-### 08_Web_Select_Frames_Iframe — Dropdowns, Selects & Frames
+### 08_Dropdowns — Dropdowns & Selects
 | File | Description |
 |------|-------------|
 | 259_select_dropown.spec.ts | Native `<select>` dropdown interaction |
@@ -170,6 +170,22 @@ npx playwright show-report
 | File | Description |
 |------|-------------|
 | 278_scrollToView.spec.ts | `scrollIntoViewIfNeeded`, `window.scrollBy`, `window.scrollTo`, `expect.poll` for lazy-loaded lists |
+
+### 17_Expect_Assertions — Assertions, Hooks & Configuration
+| File | Description |
+|------|-------------|
+| 279_Expect.spec.ts | Basic expect assertions |
+| 280_expect.spec.ts | Extended expect assertions |
+| 281_expect_softAssertopn.spec.ts | Soft assertions (`expect.soft`) |
+| 282_Project_assertion.spec.ts | Project-level assertions |
+| 283_expect.cheatsheet.spec.ts | Expect methods cheat sheet |
+| 284_testHook.spec.ts | Test hooks (beforeAll, beforeEach, afterEach, afterAll) |
+| 285_chrome_arg_list.md | Chrome/Chromium arguments reference |
+| 286-Testhook_cheatsheet.md | Test hooks cheat sheet |
+| 287_group.spec.ts | Test grouping with `test.describe` |
+| 288_Before_After.spec.ts | Before/After hooks usage |
+| 289_test.describe.spec.ts | Nested describe blocks |
+| 290_testPriority.spec.ts | Test execution priority & ordering |
 
 ## Config Notes
 

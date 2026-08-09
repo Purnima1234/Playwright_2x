@@ -37,8 +37,8 @@ test.describe('scroll to element', ()=>{
 
          await page.getByTestId('lazy-item-10').scrollIntoViewIfNeeded();
          const updatedCount= await list.count();
-          await list.last().scrollIntoViewIfNeeded();
-          await list.nth(10).scrollIntoViewIfNeeded();
+         await list.last().scrollIntoViewIfNeeded();
+         await list.nth(10).scrollIntoViewIfNeeded();
         //poll until new items opened
 
         await expect.poll(async()=> list.count(),{
