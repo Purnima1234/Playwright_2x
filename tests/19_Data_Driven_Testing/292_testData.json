@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Purnima",
+        "Experinece": 15,
+        "is trainer": true,
+        "middlename": "",
+        "skills": [
+            "javascript",
+            "Playwright",
+            "selenium"
+        ],
+
+        "address":{
+            "city": "Bangalore",
+            "Country": "India"
+
+
+        }
+
+
+    }
+]

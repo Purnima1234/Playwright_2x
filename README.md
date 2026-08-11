@@ -179,6 +179,10 @@ npx playwright show-report
 | 281_expect_softAssertopn.spec.ts | Soft assertions (`expect.soft`) |
 | 282_Project_assertion.spec.ts | Project-level assertions |
 | 283_expect.cheatsheet.spec.ts | Expect methods cheat sheet |
+
+### 18_Test_hooks — Test Hooks & Grouping
+| File | Description |
+|------|-------------|
 | 284_testHook.spec.ts | Test hooks (beforeAll, beforeEach, afterEach, afterAll) |
 | 285_chrome_arg_list.md | Chrome/Chromium arguments reference |
 | 286-Testhook_cheatsheet.md | Test hooks cheat sheet |
@@ -186,6 +190,17 @@ npx playwright show-report
 | 288_Before_After.spec.ts | Before/After hooks usage |
 | 289_test.describe.spec.ts | Nested describe blocks |
 | 290_testPriority.spec.ts | Test execution priority & ordering |
+
+### 19_Data_Driven_Testing — Data Driven Testing
+| File | Description |
+|------|-------------|
+| 291_DDT_spec.ts | Data-driven testing basics |
+| 292_testData.json | Test data JSON file |
+| 293-users.json | Users test data JSON |
+| 294_login.spec.ts | Login test with external data |
+| 295_Read_wright_filesystem.js | Read/write filesystem for test data |
+| 296_Simple_JSONarray.spec.ts | Simple JSON array data-driven tests |
+| Testdata/login.json | Login credentials test data |
 
 ## Config Notes
 
