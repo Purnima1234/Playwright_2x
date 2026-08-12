@@ -200,7 +200,22 @@ npx playwright show-report
 | 294_login.spec.ts | Login test with external data |
 | 295_Read_wright_filesystem.js | Read/write filesystem for test data |
 | 296_Simple_JSONarray.spec.ts | Simple JSON array data-driven tests |
+| 297_DDT_CSV.spec.ts | DDT using CSV file with custom CSV reader |
+| 298_DDT_Json.spec.ts | DDT using external JSON file |
+| 299_DDT_YAML.spec.ts | DDT using YAML file with js-yaml |
+| 300_DDT_MySQL.spec.ts | DDT fetching data from MySQL database |
+| 301_DDT_XLSX.spec.ts | DDT using Excel (.xlsx) file |
+| 302.faker-DDT.spec.ts | DDT with Faker.js generated data |
+| 303_fakerjs_advance.spec.ts | Advanced Faker.js data generation |
 | Testdata/login.json | Login credentials test data |
+| Testdata/login_data.csv | Login test data in CSV format |
+| Testdata/util/csv_reader.ts | CSV file reader utility |
+| Testdata/util/yaml_reader.ts | YAML file reader utility |
+| Testdata/util/xlsx_reader.ts | XLSX file reader utility |
+| Testdata/util/mysql_reader.ts | MySQL data reader utility |
+| Testdata/util/login_data.json | Login test data in JSON format |
+| Testdata/util/login_data.yml | Login test data in YAML format |
+| Testdata/util/login_data.xlsx | Login test data in Excel format |
 
 ## Config Notes
 

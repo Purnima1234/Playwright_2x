@@ -1,0 +1,32 @@
+[
+    {
+        "description": "Valid",
+        "username": "admin@gmail.com",
+        "password": "admin",
+        "shouldpass": true
+    },
+    {
+        "description": "InValid password",
+        "username": "admin@gmail.com",
+        "password": "wrong psss",
+        "shouldpass": false
+    },
+    {
+        "description": "empty username",
+        "username": "",
+        "password": "wrong psss",
+        "shouldpass": false
+    },
+    {
+        "description": "empty password",
+        "username": "admin@gmail.com",
+        "password": "",
+        "shouldpass": false
+    },
+    {
+        "description": "empty username and password",
+        "username": "",
+        "password": "",
+        "shouldpass": false
+    }
+]

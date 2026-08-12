@@ -1,0 +1,6 @@
+description,username,password,shouldpass
+Valid,admin@gmail.com,admin,true
+InValid password,admin@gmail.com,wrong psss,false
+empty username,,wrong psss,false
+empty password,admin@gmail.com,,false
+empty username and password,,,false
